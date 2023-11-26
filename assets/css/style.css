@@ -1,0 +1,21 @@
+/* this star(asterisk overrides default style*/
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box; 
+}
+/*header */
+header {
+    background-color: lightsteelblue;
+}
+
+/*dd*/
+
+main {
+    background-color: blue;
+}
+
+/* footer */
+footer {
+    background-color: lightgrey;
+}
