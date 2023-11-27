@@ -95,9 +95,14 @@ main {
 }
 
 /* footer */
-footer {
-    background-color: lightgrey;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
+
 
 
 /* Media query: tablets and larger (768px and up) */
