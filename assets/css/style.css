@@ -239,6 +239,8 @@ hr {
     justify-content: center;
 }
 
+/*SignUp PAGE*/
+
 /*Media query: LARGE or Landscape phones (576px and up*/
 @media screen and (min-width: 576px) {
 #photos {
