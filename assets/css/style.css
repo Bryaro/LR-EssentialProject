@@ -100,12 +100,10 @@ footer {
 }
 
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
-
-/* Media query: tablets and alrger screens(768px and up)*/
-@media screen and (min-width:768px) {
-
-    /*Header*/
+    /* Header */
     nav {
         display: block;
         position: relative;
@@ -118,11 +116,12 @@ footer {
         display: flex;
     }
 
-    #menu li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
+
 }
