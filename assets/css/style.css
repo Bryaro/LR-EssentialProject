@@ -116,7 +116,7 @@ footer {
         display: flex;
     }
 
-    #menu>li {
+    #menu li {
         padding-left: 1rem;
     }
 
@@ -130,10 +130,18 @@ footer {
         margin: 0 o.5rem;
     }
 
-    /* Main for media query */
+    /* Main */
     main {
         /* push the main content down so it is not hidden behind the header*/
         margin-top: 79px;
     }
+}
 
+/*Media query: screen size of 992px and higher*/
+@media screen and (min-width:992px) {
+
+    /* nav */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
